@@ -20,6 +20,7 @@ class ViewController: UIViewController,FSPagerViewDelegate,FSPagerViewDataSource
         fspage.delegate = self
         fspage.dataSource = self
         fspage.automaticSlidingInterval = 2.0
+        print("hy")
     }
 
     func numberOfItems(in pagerView: FSPagerView) -> Int {
